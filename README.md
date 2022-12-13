@@ -15,7 +15,7 @@ A disfrutar!
 2) Disfrutá la película que te salio.
 
 #Redes
-/// https://www.instagram.com/augustotturi/
-/// https://github.com/AugustOtturi
+https://www.instagram.com/augustotturi/
+https://github.com/AugustOtturi
 
 

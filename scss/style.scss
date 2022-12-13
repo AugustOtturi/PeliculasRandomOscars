@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    .row{
+        width: 100%;
+        .col-12{
+            h1{
+                font-size: 4rem;
+                text-align: center;padding: 2rem 0;
+                font-style: italic;
+                font-weight: bolder;
+            }
+            .random{
+                height: 50vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 3rem;
+                color: black;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                text-align: center;
+                overflow: hidden;
+            }
+            .botones{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    padding: 1rem;
+                    font-size: 2rem;
+                    background-color: #fbc2eb;
+                    border: none;
+                    cursor: pointer;
+                    transition: 200ms all ease;
+                    border-radius: 2rem;
+                    font-weight: bold;
+                    margin-bottom: 4rem;
+                    overflow: hidden;
+                    &:hover{
+                        background-color: aliceblue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .container-fluid{
+        overflow: hidden;
+        .row{
+            .col-12{
+                h1{
+                    font-size: 10vw;
+                }
+                .random{
+                    font-size: 8vw;
+                }
+                .botones{
+                    button{
+                        font-size: 7vw;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

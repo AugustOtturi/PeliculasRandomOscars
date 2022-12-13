@@ -14,10 +14,11 @@ A disfrutar!
 3) Clickearle al boton "generar".
 2) Disfrutá la película que te salio.
 
-#Redes.
-
+#Redes
 
 https://www.instagram.com/augustotturi/
+
+
 https://github.com/AugustOtturi
 
 
